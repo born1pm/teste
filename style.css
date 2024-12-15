@@ -1,0 +1,93 @@
+/* Estilo global */
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    margin: 0;
+
+    padding: 0;
+
+    background-color: #f0f0f0;
+
+    color: #333;
+
+}
+
+ 
+
+/* Cabeçalho */
+
+header {
+
+    background-color: #ea9800;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 20px 0;
+
+}
+
+ 
+
+/* Conteúdo principal */
+
+main {
+
+    padding: 20px;
+
+    text-align: center;
+
+}
+
+ 
+
+/* Botão */
+
+button {
+
+    background-color: #ea7d00;
+
+    color: rgba(255, 255, 255, 0);
+
+    border: none;
+
+    padding: 10px 20px;
+
+    cursor: pointer;
+
+    font-size: 16px;
+
+    border-radius: 5px;
+
+}
+
+ 
+
+button:hover {
+
+    background-color: #6eb300;
+
+}
+
+ 
+
+/* Rodapé */
+
+footer {
+
+    text-align: center;
+
+    margin-top: 20px;
+
+    padding: 10px 0;
+
+    background-color: #ddd;
+
+}
+
+
+
+
