@@ -1,93 +1,53 @@
-/* Estilo global */
+/* Header */
+header {
+  height: 100px;
+  box-shadow: 5px 2px 8px -1px rgba(0, 0, 0, 0.84);
+  -webkit-box-shadow: 5px 2px 8px -1px rgba(0, 0, 0, 0.84);
+  -moz-box-shadow: 5px 2px 8px -1px rgba(0, 0, 0, 0.84);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+header a {
+  margin-right: 16px;
+  text-decoration: none;
+  color: rgba(168, 160, 160, 0.699);
+}
+
+header a:hover {
+  color: rgb(168, 160, 160);
+}
+
+/* Body */
 
 body {
-
-    font-family: Arial, sans-serif;
-
-    margin: 0;
-
-    padding: 0;
-
-    background-color: #f0f0f0;
-
-    color: #333;
-
+  margin: 0;
 }
 
- 
-
-/* Cabeçalho */
-
-header {
-
-    background-color: #ea9800;
-
-    color: white;
-
-    text-align: center;
-
-    padding: 20px 0;
-
+.info__wikipedia {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
 }
 
- 
-
-/* Conteúdo principal */
-
-main {
-
-    padding: 20px;
-
-    text-align: center;
-
+.info__wikipedia a {
+  background-color: rgba(0, 179, 255, 0.559);
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  border: 3px dotted rgba(0, 0, 0, 0);
 }
 
- 
-
-/* Botão */
-
-button {
-
-    background-color: #ea7d00;
-
-    color: rgba(255, 255, 255, 0);
-
-    border: none;
-
-    padding: 10px 20px;
-
-    cursor: pointer;
-
-    font-size: 16px;
-
-    border-radius: 5px;
-
+.info__wikipedia a:hover {
+  background-color: rgba(45, 173, 232, 0.514);
 }
 
- 
-
-button:hover {
-
-    background-color: #6eb300;
-
+.body__test p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  color: blue;
 }
 
- 
-
-/* Rodapé */
-
-footer {
-
-    text-align: center;
-
-    margin-top: 20px;
-
-    padding: 10px 0;
-
-    background-color: #ddd;
-
-}
-
-
-
-
+/* Footer */
